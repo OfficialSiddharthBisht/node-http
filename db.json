@@ -2,15 +2,23 @@
     "books" : [
     {
         "name" : "The Story Of My Life",
-        "author" : "abc"
+        "author" : "abc",
+        "description" : "some description of the book"
     },
     {
         "name" : "Eat That Frog",
-        "author" : "xyz"
+        "author" : "xyz",
+        "description" : "Eat that frog is a good book"
     },
     {
         "name": "Rich Dad Poor Dad",
-        "author" : "Robert Kiosaki"
+        "author" : "Robert Kiosaki",
+        "description" : "Focuses on Finance"
+    },
+    {
+        "name" : "Manga",
+        "author" : "pqr",
+        "description" : "A Japanese comic book"
     }
 ]
 }
