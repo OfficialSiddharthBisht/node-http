@@ -1,11 +1,14 @@
 const http = require("http");
+const books = require("./db.json");
 
 const server = http.createServer((request, response) =>{
     if(request.url === "/"){
         response.end("Hello");
     }else if(request.url === "/books"){
-        response.end("Books Site");
+        response.writeHead(200,{"Content-Cype":"text/json"});
+        response.end(JSON.stringify(books));
     }else{
+        response.writeHead(404);
         response.end("404 Error , Page Not Found")
     }
     
